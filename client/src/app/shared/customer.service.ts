@@ -8,7 +8,7 @@ import { HttpClient } from "@angular/common/http";
 export class CustomerService {
   customers: Customer[];
 
-  readonly APIUrl = "http://localhost:3000/Customers";
+  readonly APIUrl = "/Customers";
 
   constructor(private http: HttpClient) {}
 
